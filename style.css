@@ -63,7 +63,7 @@ body {
   background-image: url("regist.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 670px;
+  height: 770px;
 
 }
 
@@ -113,7 +113,7 @@ article header {
 
 .pure-steps {
   display: inline-block;
-  width: 20em;
+  width: 25em;
   color: white;
   margin-bottom: 3em;
 }
@@ -123,7 +123,7 @@ article header {
 }
 .pure-steps .pure-steps_group {
   position: relative;
-  min-height: 30em;
+  min-height: 37em;
   border-radius: .4em;
   overflow: hidden;
   box-shadow: 0 1.7em 5.5em -0.94em rgba(0, 0, 0, 0.3), 0 2em 3em 0.5em rgba(0, 0, 0, 0.1), 0 1.8em 2em -1.5em rgba(0, 0, 0, 0.2);

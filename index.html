@@ -53,11 +53,33 @@
     }
 
 	
+    @media screen and (orientation: portrait) {
+		body {
+            background-image: url("welcome.jpg");
+            }
+		.center1 {
+		   margin: 0;
+ 		   position: absolute;
+		   top: 90%;
+		   left: 50%;
+ 		   -ms-transform: translate(-50%, -50%);
+ 		   transform: translate(-50%, -50%);
+	    }
+		.center2 {
+		   margin: 0;
+ 		   position: absolute;
+		   top: 100%;
+		   left: 50%;
+ 		   -ms-transform: translate(-50%, -50%);
+ 		   transform: translate(-50%, -50%);
+	    }
+	}
+
     @media screen and (orientation: landscape) {
 		body {
             background-image: url("welcome1.jpg");
           }
-			.center1 {
+		.center1 {
 		   margin: 0;
  		   position: absolute;
 		   top: 60%;
@@ -73,29 +95,7 @@
  		   -ms-transform: translate(-50%, -50%);
  		   transform: translate(-50%, -50%);
 	    }
-    @media screen and (min-width: 1200px) {
-		body {
-            background-image: url("welcome.jpg");
-            }
-		.center1 {
-		   margin: 0;
- 		   position: absolute;
-		   top: 120%;
-		   left: 50%;
- 		   -ms-transform: translate(-50%, -50%);
- 		   transform: translate(-50%, -50%);
-	    }
-		.center2 {
-		   margin: 0;
- 		   position: absolute;
-		   top: 135%;
-		   left: 50%;
- 		   -ms-transform: translate(-50%, -50%);
- 		   transform: translate(-50%, -50%);
-	    }
 	}
-
-}
 
 
      /*Extra small devices (portrait phones, less than 576px)*/

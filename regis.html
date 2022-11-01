@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
 <style>
 	.container {
  	  position: relative;
@@ -168,8 +169,9 @@
     <article>
       <form class="pure-steps"
        method="POST"
-       action="https://script.google.com/macros/s/AKfycbzXow-cVewYxEFaESwt00htRcJ_PcnP2DuTE3vuPHLOf5dqfgRXBlqKZ66nYEn5Duslrw/exec"> 
-        <input type="radio" name="steps" class="pure-steps_radio" id="step-0" checked="">
+       action="https://script.google.com/macros/s/AKfycbzXow-cVewYxEFaESwt00htRcJ_PcnP2DuTE3vuPHLOf5dqfgRXBlqKZ66nYEn5Duslrw/exec"
+       id="my-form">
+       <input type="radio" name="steps" class="pure-steps_radio" id="step-0" checked="">
         <input type="radio" name="steps" class="pure-steps_radio" id="step-1">
         <input type="radio" name="steps" class="pure-steps_radio" id="step-2">
         <div class="pure-steps_group">
@@ -227,13 +229,14 @@
               <label for="step-1"><strong>Pendaftaran</strong></label>
             </li>
             <li class="pure-steps_group-triggers_item">
-             <button class="button-41" type="submit">Send</button> 
+            <button for="step-2" class="button-41" type="submit">Send</button> 
+ <!--            <label for="step-2" type="hidden"><strong>Send</strong></label> -->
             </li>
           </ol>
         </div>
   <!--      <br>
-        <label for="step-0">Restart</label>
-  -->
+        <label for="step-0">Restart</label> -->
+ 
       </form>
     </article>
   </html>

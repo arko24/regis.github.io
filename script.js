@@ -9,7 +9,8 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Registration Success! Silahkan Cek Email Anda");
+      alert("Registration Success! Kami Akan Mengirim Link ke Email Anda");
+      location.href = './index.html';
     })
   });
 });
@@ -22,4 +23,4 @@ function checkOnlyOne(b){
   for (i = 0; i < x.length; i++) {
     if(x[i].value != b) x[i].checked = false;
   }
-}
+  }
